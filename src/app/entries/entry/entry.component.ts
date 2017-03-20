@@ -8,5 +8,10 @@ import { Component } from '@angular/core';
 export class EntryComponent {
     title: string = 'My First Photo';
     photo: string = 'http://placehold.it/800x500?text=Angular_Basics';
-    description: string = 'A description of my first photo.'
+    description: string = 'A description of my first photo.';
+    comments: any[] = [
+        {name: 'Lunchbox', text: 'This is great!'},
+        {name: 'Ziggy', text: 'This is medium!'},
+        {name: 'Hemingway', text: 'I don\'t like.'}
+    ]
 }
